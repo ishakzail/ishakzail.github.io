@@ -10,6 +10,7 @@ const Skills = () => {
         className='flex flex-col items-center justify-center gap-3 h-full relative'
         style={{transform: 'scale(0.9)'}}
     >
+        
         <SkillText />
         <div className='flex flex-row justify-around flex-wrap mt-4 gap-5 items-center'>
             {Frontend_skill.map((image, index) =>(

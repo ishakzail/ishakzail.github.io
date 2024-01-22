@@ -191,6 +191,45 @@ export const Skill_data = [
       height: 60,
     },
   ];
+
+
+  export const projectsData = [
+    {
+      title: 'INCEPTION',
+      content: 'This project aims to virtualize several Docker images, creating them in a virtual machine.',
+      backgroundImage: '/inception.png',
+      tools: 'docker, docker-compose',
+      link: 'https://github.com/ishakzail/inception'
+  },
+  {
+      content: 'The aim of this Website is to efficiently manage exams, subjects, students, departements and marks',
+      title: 'EXAM MANAGEMENT',
+      backgroundImage: "/dashborad_exam.png",
+      tools: 'PHP, HTML, CSS, Mysql',
+      link: 'https://github.com/ishakzail/Exam_Mangement'
+  },
+  {
+      content: 'This project involves creating a server that allows multiple clients to connect and communicate with each other through various IRC commands. The server also supports channels, where clients can join and communicate with each other.',
+      title: 'FT_IRC',
+      backgroundImage: "/irc.jpeg",
+      tools: 'C++',
+      link: 'https://github.com/ishakzail/ft_irc'
+  },
+  {
+      content: 'This project is about a website for the mighty Pong contest!',
+      title: 'FT_TRANSCENDENCE',
+      backgroundImage: "/ft_transcendence.png",
+      tools: 'NestJS, React, TypeScript, Socket.io, Redux Toolkit, PostgreSQL, Docker',
+      link: 'https://github.com/ishakzail/ft_transcendence'
+  },
+  {
+      content: 'This Node.js application built with Fastify and FFmpeg allows users to upload a video, trim it to a specified duration, and resize it to given dimensions.',
+      title: 'Video Processing API',
+      backgroundImage: "/video_cut.jpeg",
+      tools: 'NodeJS, Fastify',
+      link: 'https://github.com/ishakzail/Video-resizer-trimmer'
+  },
+  ];
   
   
   

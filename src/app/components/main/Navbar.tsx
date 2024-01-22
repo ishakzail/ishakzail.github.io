@@ -18,9 +18,9 @@ const Navbar = () => {
             className="cursor-pointer hover:animate-slowspin"
           /> */}
 
-          <span className="font-bold ml-[10px] hidden md:block text-gray-300">
+          {/* <span className="font-bold ml-[10px] hidden md:block text-gray-300">
             Ishak Zail
-          </span>
+          </span> */}
         </a>
 
         <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
@@ -34,11 +34,14 @@ const Navbar = () => {
             <a href="#projects" className="cursor-pointer">
               Projects
             </a>
+            <a href="#contact" className="cursor-pointer">
+              Contact
+            </a>
           </div>
         </div>
 
         <div className="flex flex-row gap-5">
-          {Socials.map((social) => (
+          {/* {Socials.map((social) => (
             <Image
               src={social.src}
               alt={social.name}
@@ -46,7 +49,7 @@ const Navbar = () => {
               width={24}
               height={24}
             />
-          ))}
+          ))} */}
         </div>
       </div>
     </div>

@@ -204,21 +204,21 @@ export const Skill_data = [
   {
       content: 'The aim of this Website is to efficiently manage exams, subjects, students, departements and marks',
       title: 'EXAM MANAGEMENT',
-      backgroundImage: "/dashborad_exam.png",
+      backgroundImage: "/exam_1.jpeg",
       tools: 'PHP, HTML, CSS, Mysql',
       link: 'https://github.com/ishakzail/Exam_Mangement'
   },
   {
       content: 'This project involves creating a server that allows multiple clients to connect and communicate with each other through various IRC commands. The server also supports channels, where clients can join and communicate with each other.',
       title: 'FT_IRC',
-      backgroundImage: "/irc.jpeg",
+      backgroundImage: "/irc_1.jpeg",
       tools: 'C++',
       link: 'https://github.com/ishakzail/ft_irc'
   },
   {
       content: 'This project is about a website for the mighty Pong contest!',
       title: 'FT_TRANSCENDENCE',
-      backgroundImage: "/ft_transcendence.png",
+      backgroundImage: "/pong_1.jpeg",
       tools: 'NestJS, React, TypeScript, Socket.io, Redux Toolkit, PostgreSQL, Docker',
       link: 'https://github.com/ishakzail/ft_transcendence'
   },
